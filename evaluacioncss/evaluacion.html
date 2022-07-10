@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="estilos.css">
+
+  <title>Evaluación 1 - CSS</title>
+</head>
+
+<body>
+  
+  <main>
+    <section>
+      <h2>PARRAFOS</h2>
+      <img src="https://d500.epimg.net/cincodias/imagenes/2021/05/18/smartphones/1621347094_318911_1621347989_noticia_normal.jpg" alt="" />
+      <p>
+        Después de haber mostrado ayer algunas de sus innovaciones en materia de pantallas mediante imágenes, Samsung
+        acaba de publicar un vídeo que las muestra en movimiento. <p> Y qué movimiento tan glorioso, los 91 segundos que
+        dura. Presentado como parte de la Display Week de este año,<p> la promoción en cuestión nos permite ver un
+        dispositivo con una pantalla triplemente plegable,<p> un concepto de portátil plegable de 17 pulgadas, la nueva
+        tecnología de cámara bajo la pantalla de Samsung, y algunas cosas más.
+      </p>
+      <a href="#">VER MÁS INFORMACIÓN</a>
+    </section>
+    <section>
+      <h2>Tabla</h2>
+      <table>
+        <caption>
+          Resultado de la búsqueda
+        </caption>
+        <tr>
+          <th abbr="Imagen del producto" scope="col">Imagen</th>
+          <th abbr="Datos del producto" scope="col">Datos</th>
+          
+        </tr>
+
+        <tr>
+          <td>
+            <img src="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2021/07/21/16268827626852.png"
+              alt="Imagen del ordenador portátil" />
+          </td>
+          <td>
+            <h4>
+              <a href="#" title="Ver más información sobre el portátil">Portátil - 3 GHz - 4 GB RAM</a>
+            </h4>
+            <p>
+              <a href="#" title="Comprar el portátil">Comprar:</a>
+              <del>2.990 &euro;</del> <strong>2.599 &euro;</strong>
+            </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <img src="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2021/07/21/16268827626852.png" alt="Imagen de la videocámara" />
+          </td>
+          <td>
+            <h4>
+              <a href="#" title="Ver más información sobre la videocámara">Videocámara - Alta definición 1080p - 80
+                GB</a>
+            </h4>
+            <p>
+              <a href="#" title="Comprar la videocámara">Comprar:</a>
+              <del>1.099 &euro;</del> <strong>999 &euro;</strong>
+            </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <img src="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2021/07/21/16268827626852.png" alt="Imagen del televisor" />
+          </td>
+          <td>
+            <h4>
+              <a href="#" title="Ver más información sobre el televisor">Televisor - 52" - Full HD</a>
+            </h4>
+            <p>
+              <a href="#" title="Comprar el televisor">Comprar:</a>
+              <del>1.999 &euro;</del> <strong>1.799 &euro;</strong>
+            </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <img src="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2021/07/21/16268827626852.png" alt="Imagen del móvil" />
+          </td>
+          <td>
+            <h4>
+              <a href="#" title="Ver más información sobre el móvil">Móvil - 4G - Wi-Fi - 8 GB</a>
+            </h4>
+            <p>
+              <a href="#" title="Comprar el móvil">Comprar:</a>
+              <del>399 &euro;</del> <strong>349 &euro;</strong>
+            </p>
+          </td>
+        </tr>
+      </table>
+    </section>
+    <section>
+      <h2>FORMULARIO</h2>
+      <form action="#">
+        <p>
+          <label for="card">
+            <span>Card type:</span>
+          </label>
+          <select id="card" name="usercard">
+            <option value="visa">Visa</option>
+            <option value="mc">Mastercard</option>
+            <option value="amex">American Express</option>
+          </select>
+        </p>
+        <p>
+          <label for="number">
+            <span>Card number:</span>
+            <strong><abbr title="required">*</abbr></strong>
+          </label>
+          <input type="tel" id="number" name="cardnumber" />
+        </p>
+        <p>
+          <label for="expiration">
+            <span>Expiration date:</span>
+            <strong><abbr title="required">*</abbr></strong>
+          </label>
+          <input type="text" id="expiration" required="true" placeholder="MM/YY"
+            pattern="^(0[1-9]|1[0-2])\/([0-9]{2})$" />
+        </p>
+        <button type="button">REGISTRAR</button>
+      </form>
+    </section>
+    <section>
+      <h2>LISTAS</h2>
+      <ul>
+        <li><a href="#">Elemento de la Lista</a></li>
+        <li><a href="#">Elemento de la Lista</a></li>
+        <li><a href="#">Elemento de la Lista</a></li>
+        <li>
+          <a href="#">Elemento de la Lista</a>
+          <ul>
+            <li>Elemento de la Lista anidada</li>
+            <li>Elemento de la Lista anidada</li>
+            <li>Elemento de la Lista anidada</li>
+            <li>Elemento de la Lista anidada</li>
+            <li>Elemento de la Lista anidada</li>
+            <li>Elemento de la Lista anidada</li>
+            <li>Elemento de la Lista anidada</li>
+            <li>Elemento de la Lista anidada</li>
+            <li>Elemento de la Lista anidada</li>
+            <li>Elemento de la Lista anidada</li>
+            <li>Elemento de la Lista anidada</li>
+            <li>Elemento de la Lista anidada</li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Elemento de la Lista</a>
+          <ol>
+            <li>Elemento de la lista anidada</li>
+            <li>Elemento de la lista anidada</li>
+            <li>Elemento de la lista anidada</li>
+            <li>Elemento de la lista anidada</li>
+            <li>Elemento de la lista anidada</li>
+            <li>Elemento de la lista anidada</li>
+            <li>Elemento de la lista anidada</li>
+            <li>Elemento de la lista anidada</li>
+            <li>Elemento de la lista anidada</li>
+            <li>Elemento de la lista anidada</li>
+            <li>Elemento de la lista anidada</li>
+            <li>Elemento de la lista anidada</li>
+          </ol>
+        </li>
+        <li><a href="#">Elemento de la Lista</a></li>
+      </ul>
+    </section>
+  </main>
+</body>
+
+</html>

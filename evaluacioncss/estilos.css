@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+ 
+}
+
+body {
+    
+    background-image: url("https://static8.depositphotos.com/1025323/1014/i/950/depositphotos_10142532-stock-photo-mind-over-digit.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+h2 {
+    background-color: hsla(186, 48%, 28%, 0.939);
+    text-align: center;
+    color: rgb(234, 228, 228);
+}
+li{
+   background: fixed;
+    text-shadow: 0px;
+ color: rgb(241, 242, 239);
+}
+h4 {
+    background: fixed;
+    text-shadow: 0px;
+    color: hsl(180, 100%, 50%);
+}
+p{
+    background: fixed;
+    text-shadow: 0px;
+    color: rgb(244, 249, 244);
+}
